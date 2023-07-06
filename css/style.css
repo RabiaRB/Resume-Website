@@ -345,3 +345,7 @@ ol>li:before {
 .tech {
      display: inline;
 }
+
+.skillset-small-screen{
+     display: none;
+}
