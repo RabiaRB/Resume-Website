@@ -405,4 +405,29 @@ ol>li:before {
 
      }
 
+
+         .shortInfo{
+        padding: 20px;
+    }
+    .skillset{
+        display: none;
+    }
+
+    .small-screen-name h2{
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
+    .contacts p{
+        line-height: 10px;
+    }
+
+    .summary p {
+        font-size: 14px;
+    }
+
+    .tech{
+        display: block;
+        margin-left: 20px;
+    }
+
 }
