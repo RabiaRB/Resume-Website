@@ -127,16 +127,6 @@ li {
      line-height: 24px;
 }
 
-.shortInfo li:before {
-     content: "\2022";
-     font-size: 18px;
-     font-weight: 700;
-     line-height: 24px;
-     color: #FB6D3A;
-     display: inline-block;
-     width: 18px;
-}
-
 .softSkills {
      margin-top: 30px;
 }
@@ -350,6 +340,16 @@ ol>li:before {
      display: none;
 }
 
+.skillset li:before {
+     content: "\2022";
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 24px;
+     color: #FB6D3A;
+     display: inline-block;
+     width: 18px;
+}
+
 @media screen and (max-width: 600px) {
      body {
           flex-direction: column;
@@ -428,6 +428,10 @@ ol>li:before {
     .tech{
         display: block;
         margin-left: 20px;
+    }
+
+    .skillset-small-screen {
+         display: block;
     }
 
 }
