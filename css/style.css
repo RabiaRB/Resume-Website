@@ -58,3 +58,185 @@ li {
 .workExperience .subtitle {
      color: rgba(251, 109, 58, 1);
 }
+/* SIDEBAR STYLES */
+
+.sidebar {
+     width: 320px;
+     background-color: #1E2939;
+     color: #FFFFFF;
+}
+
+.shortInfo {
+     padding-left: 40px;
+     padding-top: 51px;
+}
+
+.shortInfo h3 {
+     margin: 0;
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 27px;
+}
+
+.contacts p {
+     font-weight: 700;
+     color: #FFFFFF;
+     margin: 8px 0 0 0
+}
+
+.contacts a {
+     font-weight: 400;
+     color: rgba(255, 255, 255, 0.5);
+}
+
+.telephone {
+     text-decoration: none;
+}
+
+.social-media {
+     margin-top: 10px;
+     width: 35%;
+     display: flex;
+     justify-content: space-between;
+
+
+}
+
+.techSkills {
+     margin-top: 30px;
+     margin-bottom: 0;
+
+
+}
+
+.small-screen-name {
+     display: none;
+}
+
+.shortInfo ul {
+     list-style: none;
+     padding-left: 0;
+     margin-top: 8px;
+
+}
+
+.shortInfo li {
+     color: rgba(255, 255, 255, 1);
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 24px;
+}
+
+.shortInfo li:before {
+     content: "\2022";
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 24px;
+     color: #FB6D3A;
+     display: inline-block;
+     width: 18px;
+}
+
+.softSkills {
+     margin-top: 30px;
+}
+
+.side-img {
+     margin-top: 40px;
+     width: 320px;
+
+
+}
+
+.side-img img {
+     width: 100%;
+}
+
+.contacts p:last-child {
+     margin-top: 0;
+}
+
+/* MAIN CONTENT STYLES  */
+
+.mainContent {
+     width: calc(100% - 370px);
+     padding: 40px;
+}
+
+.summary {
+     margin-bottom: 40px;
+}
+
+.full-screen-name h4,
+.small-screen-name h4 {
+     margin: 0;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 17px;
+
+}
+
+.full-screen-name h2,
+.small-screen-name h2 {
+     margin: 19px 0 24px 0;
+     font-weight: 700;
+     font-size: 45px;
+     line-height: 55px;
+}
+
+.summary p {
+     margin: 0px;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 24px;
+     color: #595959;
+}
+
+
+.projects h3 {
+     margin: 0;
+
+}
+
+.projects>ol {
+     margin-top: 8 0 1.5em 0;
+     padding: 0;
+     counter-reset: item;
+
+}
+
+ol>li {
+     margin: 0;
+     padding: 0 0 0 2em;
+     text-indent: -2em;
+     list-style-type: none;
+     counter-increment: item;
+}
+
+ol>li:before {
+     display: inline-block;
+     width: 1em;
+     padding-right: 13px;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 24px;
+     color: #000;
+     text-align: right;
+     content: counter(item) ".";
+}
+
+.projects>ol span {
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 24px;
+
+}
+
+.projects a {
+     margin-top: 8px;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 24px;
+     text-decoration: underline;
+     color: #595959;
+}
